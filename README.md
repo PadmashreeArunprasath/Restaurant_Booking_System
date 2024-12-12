@@ -1,6 +1,7 @@
-"#Restaurant Booking System"
-Overview
-This is a simple, non-responsive web application built using HTML and CSS to create a visually appealing interface for a restaurant booking system. It includes pages for home, dine-in, delivery, and menu.
+**Restaurant Booking System**
+
+*Overview*
+    This is a simple, non-responsive web application built using HTML and CSS to create a visually appealing interface for a restaurant booking system. It includes pages for home, dine-in, delivery, and menu.
 
 *Features*
  * Home Page: Welcoming page with a brief introduction to the restaurant.
