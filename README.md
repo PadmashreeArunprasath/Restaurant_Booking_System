@@ -2,7 +2,7 @@
 
 *Overview*
     
-    This is a simple, non-responsive web application built using HTML and CSS to create a visually appealing interface for a restaurant booking system. It includes pages for home, dine-in, delivery, and menu.
+*This is a simple, non-responsive web application built using HTML and CSS to create a visually appealing interface for a restaurant booking system. It includes pages for home, dine-in, delivery, and menu.
 
 *Features*
  * Home Page: Welcoming page with a brief introduction to the restaurant.
@@ -12,7 +12,8 @@
 
 *How to Use*
  * Open the Index File:
-   Double-click on the index.html file to open it in your web browser.*ensure you have all the provides folders and files in a same folder.*
+   Double-click on the index.html file to open it in your web browser.
+   **ensure you have all the provides folders and files in a same folder.**
  * Navigate Through Pages:
    Use the navigation links provided on the home page to access the other pages.
 
