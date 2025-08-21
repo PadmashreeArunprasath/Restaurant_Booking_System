@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    background-image: url("../image/dinebg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    border-radius: 10px;
+    border:2px solid black;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 10px;
+    padding-top: 0px;
+    backdrop-filter: blur(25px);
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #ffb300;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+label {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #ddd;
+}
+
+input, textarea {
+    backdrop-filter: blur(25px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 570px;
+    background-color: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input[type="submit"] {
+    background-color: #1b6407;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ddd;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input[type="submit"]:hover {
+    background-color: #1b6407;
+}

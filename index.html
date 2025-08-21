@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sage n Salt</title>
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url("./image/marronbg.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: #fff;
+        }
+
+
+        h2 {
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+        }
+
+        .search {
+            width: max-content;
+            display: flex;
+            align-items: center;
+            padding: 14px;
+            border-radius: 28px;
+            background: rgb(235, 225, 225);
+            width: 600px;
+            position: absolute;
+            top: 40px;
+            left: 70px;
+        }
+
+        .search-input {
+            font-size: 16px;
+            width: 500px;
+            font-family: 'Lexend', sans-serif;
+            color: #928a8a;
+            margin-left: 14px;
+            outline: none;
+            border: none;
+            background: transparent;
+        }
+
+        .search-input::placeholder,
+        .search-icon {
+            color: rgba(0, 0, 0, 0.5);
+        }
+
+        header {
+
+            color: #222;
+            padding: 20px 0;
+            position: relative;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2em;
+            color: #f2f2f2;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        nav ul {
+            position: relative;
+            margin-left: 850px;
+            margin-bottom: 0px;
+            list-style: none;
+            top: 15px;
+            padding: 0;
+            display: flex;
+        }
+
+        nav li {
+            color: #f2f2f2;
+            margin-left: 20px;
+        }
+
+        nav a {
+            color: #f2f2f2;
+            text-decoration: none;
+        }
+
+        .icons {
+            display: flex;
+            align-items: center;
+        }
+
+        .icons i {
+            margin-left: 10px;
+            font-size: 1.5em;
+        }
+
+        .hero {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 100px 0;
+
+        }
+
+        .content {
+            position: relative;
+            text-align: left;
+            width: 50%;
+            margin-right: 150px;
+            margin-bottom: 80px;
+        }
+        .container .image{
+            filter:drop-shadow(1px 1px 2px white);
+        }
+
+        .image {
+            width: 50%;
+        }
+
+        .image img {
+            position: relative;
+            margin-top: 0px;
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+
+        }
+
+
+        p {
+            line-height: 1.5;
+            margin-bottom: 20px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            justify-self: auto;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #222;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        /* Style the Contact Us section */
+        #contact-us {
+            
+            padding: 20px;
+            margin-left: 500px;
+           
+            width: 500px;
+        }
+
+        .social-media {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 10px;
+            margin-right: 50px;
+
+        }
+
+        .social-media img {
+            width: 40px;
+            height: 40px;
+            margin: 10px;
+            border-radius: 50%;
+        }
+
+        #feedback-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        #feedback-form label {
+            margin-bottom: 10px;
+        }
+
+        #feedback-form input,
+        #feedback-form textarea {
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        #feedback-form input[type="submit"] {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #feedback-form input[type="submit"]:hover {
+            background-color: #3e8e41;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <form>
+                <div class="search">
+                    <span class="search-icon material-symbols-outlined">search</span>
+                    <input class="search-input" type="search" placeholder="Search,Order,Enjoy!">
+                </div>
+            </form>
+            <nav>
+                <ul>
+                    <li><a href="./html/dinein.html">Dine-In</a></li>
+                    <li><a href="./html/Menu.html">Pick-up</a></li>
+                    <li><a href="./html/location.html">Deliver</a></li>
+                    <li><a href="./html/Menu.html">Menu</a></li>
+                    
+
+                </ul>
+            </nav>
+            <div class="icons">
+                <i class="fas fa-search"></i>
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="content">
+                <p>Welcome to</p>
+                <h1 style="font-size: 64px; font-family:'Times New Roman', Times, serif">Sage n Salt</h1><br>
+
+                <p>Craving a culinary adventure ? <br>Journey through worlds at The World Plate! Our vibrant restaurant
+                    offers diverse cuisines under one roof, from fiery Asian stir-fries to classic Italian pastas.
+                    Explore new flavors or revisit old favorites - all in a single unforgettable dining experience.</p>
+            </div>
+            <div class="image">
+                <img src="image/noodles.png" alt="Food Image">
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>

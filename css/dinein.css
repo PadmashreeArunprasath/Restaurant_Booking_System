@@ -1,0 +1,102 @@
+body{
+    align-items: center;
+    background-image: url("../image/backbg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    
+}
+ h1{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size:xx-large;
+    top:30px;
+    color: rgb(255, 255, 255);
+}
+.dine{
+    top:30px;
+    position:relative;
+    width: 300px;
+    height:450px;
+}
+.image{
+    position:relative;
+    width: 300px;
+    height: 450px;
+}
+.image__img img{
+    display:block;
+    width: 300px;
+    height: 450px;
+    border-radius: 8px;
+}
+.image__overlay{
+    position: absolute;
+    border-radius: 8px;
+    top: 0;
+    left: 0;
+    right:0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    background: rgba(0,0,0,0.6);
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+} 
+.image__overlay--blur{
+    backdrop-filter: blur(5px);
+}
+.image__overlay--primary{
+    background: #009500;
+} 
+.image__overlay > *{
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}  
+.image__overlay:hover {
+    opacity: 1;
+}
+.image__overlay:hover > *{
+    transform: translateY(0);
+}
+.image__title{
+    font-size: 2em;
+    font-weight: bold;
+}
+.image__description{
+    font-size: 16px;
+    margin-top: 0.25em;
+    text-align: center;
+}
+.btn{
+    align-items: center;
+    padding-left: 700px;
+}
+.btn button{
+    align-content: center;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #3a100c;
+    color: #ffffff;
+    border-radius: 5px;
+    border: 2px solid white;
+    position: relative;
+    top:70px;
+    font-size: large;
+}

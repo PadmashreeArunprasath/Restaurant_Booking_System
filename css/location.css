@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    align-items: center;
+    background-image: url("../image/locbg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  }
+  
+  #location-form {
+    backdrop-filter: blur(25px);
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #f8f6f3;
+  }
+  
+  input[type="text"] {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 20px;
+    backdrop-filter: blur(25px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    width: 370px;
+    
+  }
+  
+  input[type="submit"] {
+    background-color: #1b6407;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ddd;
+    margin-left: 150px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  .btn{
+    align-items: center;
+    padding-left: 680px;
+    margin-top: auto;
+}
+.btn button{
+    align-items: center;
+    align-tracks: center;
+    width: 150px;
+    height: 35px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:  #3a100c;
+    color: #ffffff;
+    border-radius: 5px;
+    border: 2px solid white;
+    position: relative;
+    top:5px;
+    bottom:15px;
+    font-size: large;
+}

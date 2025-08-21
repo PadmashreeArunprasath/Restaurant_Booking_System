@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Booking Form</title>
+    <link rel="stylesheet" href="../css/form.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Book a Table</h1>
+        <form>
+            <label for="name">Name</label><input type="text" id="name" name="name" required><br>
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" required><br>
+            <label for="date">Date</label>
+            <input type="date" id="date" name="date" required><br>
+            <label for="time">Time</label>
+            <input type="time" id="time" name="time" required><br>
+            <label for="guests">Number of Guests</label>
+            <input type="number" id="guests" name="guests" min="1" max="10" required><br>
+            
+            <input style="width: 100px; align-self: center; padding-left: 10px;" type="submit" value="Book a Table">
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Menu</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            align-items: center;
+            width: auto;
+            /* background-color:#8b4513; */
+            background-image: url("../image/bg.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;  
+        }
+        .box{
+            width: fit-content;
+            height: auto;
+            position: relative; 
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2) ;
+            padding: 10px 15px;
+            backdrop-filter: blur(25px);
+            position: relative;
+            right:230px;
+           
+            border-radius: 12px;
+        }
+
+        .item {
+            width:750px;
+            height: 200px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            padding: 15px;
+           
+        }
+
+        .item-details {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .item-title {
+            font-size: 20px;
+            font-weight: 900;
+            color:#ffc400;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        .item-rating {
+            display: flex;
+            align-items: center;
+            color: #ddd;
+        }
+
+        .item-rating-stars {
+            margin-right: 5px;
+            color: #ddd;
+        }
+
+        .item-price {
+            font-size: 18px;
+            font-weight: bold;
+            color: #ddd;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        .item-description {
+            margin-top: 5px;
+            line-height: 1.5;
+            color: #ddd;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        .item-image {
+            position: relative;
+            left:25px;
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+        }
+        .item-image img{
+            width: 180px;
+            border-radius: 8px;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .item-button {
+            position: relative;
+            width:90px;
+            height: 30px;
+            align-items: center;
+            top:90px;
+            right:90px;
+            background-color: rgb(233, 194, 18);
+            color: #0e0d0d;
+            box-shadow: 0 0 10px rgba(255, 246, 246, 0.25) ;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            
+        }
+
+        .item-button:hover {
+            background-color:rgb(233, 194, 18);
+        }
+        
+        .item-details p{
+            color: #ddd;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+       
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+        <h1 style="color:  #ffc400;   text-align: center; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Menu</h1>
+        <div class="item">
+            <div class="item-details">
+
+                <h2 class="item-title">Idly</h2>
+                <div class="item-rating">
+                    ★★★★☆
+                   
+                </div>
+                <p class="item-price" style="color: #ddd;">₹50</p>
+                <p class="item-description" style="color: #ddd;">Delicious steamed rice cakes soaked in a hot piping lentil soup paired with a crispy donut-shaped deep fried fritters.</p>
+            </div>
+            <div class="item-image">
+                <img src="../image/idly.jpg" alt="Chicken 65 Biryani">
+            </div>
+            <button class="item-button">ADD</button>
+        </div>
+        
+        <div class="item">
+            <div class="item-details">
+
+                <h2 class="item-title">Veg Pulao</h2>
+                <div class="item-rating">
+                    ★★★★☆
+                    
+                </div>
+                <p class="item-price">₹190</p>
+                <p class="item-description">A flavourful and aromatic medley of assorted vegetables cooked with fragrant rice to create a mouthwatering delight paired with a bowl of raita.</p>
+            </div>
+            <div class="item-image">
+                <img src="../image/veg pulao.jpg" alt="Chicken 65 Biryani">
+            </div>
+            <button class="item-button">ADD</button>
+        </div>
+        <div class="item">
+            <div class="item-details">
+
+                <h2 class="item-title">Hyderabadi Chicken Briyani</h2>
+                <div class="item-rating">
+                    ★★★★☆
+                    
+                </div>
+                <p class="item-price">₹390</p>
+                <p class="item-description">Indulge in the delightful flavours of Hyderabad with this biryani made with Hyderabadi spice mix that soaks the succulent chicken layered.</p>
+            </div>
+            <div class="item-image">
+                <img src="../image/briyani.jpg" alt="Chicken 65 Biryani">
+            </div>
+            <button class="item-button">ADD</button>
+        </div>
+        <div class="item">
+            <div class="item-details">
+
+                <h2 class="item-title">Chicken Burger</h2>
+                <div class="item-rating">
+                    ★★★★☆
+                  
+                </div>
+                <p class="item-price">₹210</p>
+                <p class="item-description">Experience a finger licking signature burger made with a freshly baked bun consisting of a crunchy chicken fillet ,veggies and a delicious mayo.</p>
+            </div>
+            <div class="item-image">
+                <img src="../image/burger.jpg" alt="Chicken 65 Biryani">
+            </div>
+            <button class="item-button">ADD</button>
+        </div>
+        <div class="item">
+            <div class="item-details">
+
+                <h2 class="item-title">Margerita Pizza</h2>
+                <div class="item-rating">
+                    ★★★★☆
+                   
+                </div>
+                <p class="item-price">₹380</p>
+                <p class="item-description">A traditional Italian classic woodfired pizza topped with fresh mozarella, tomato, olive oil and marinated chicken .</p>
+            </div>
+            <div class="item-image">
+                <img src="../image/pizza.jpg" alt="Chicken 65 Biryani">
+            </div>
+            <button class="item-button">ADD</button>
+        </div>
+        <div class="item">
+            <div class="item-details">
+
+                <h2 class="item-title">Arabian Shawarma</h2>
+                <div class="item-rating">
+                    ★★★★☆
+                 
+                </div>
+                <p class="item-price">₹160</p>
+                <p class="item-description">A Middle Eastern dish consisting of chopped boneless chicken with mayonnaise and a mixture of cabbages.</p>
+            </div>
+            <div class="item-image">
+                <img src="../image/shawarma.jpg" alt="Chicken 65 Biryani">
+            </div>
+            <button class="item-button">ADD</button>
+        </div>
+       </div> 
+    </div>
+</body>
+
+</html>
